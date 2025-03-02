@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/8wgCKhpZ)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18467791&assignment_repo_type=AssignmentRepo)
+
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
     Version Control is a system that records changes to a file or set of files over time so that you can recall specific versions later. 
@@ -70,20 +71,27 @@
         Disadvantages: Limited collaboration, may require a paid plan.
         
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
-    Making Your First Commit
-        Make Changes: Edit files in your local repository.
-        
-        Stage Changes: Use git add <file> to stage changes.
-        
-        Commit Changes: Use git commit -m "commit message" to create a snapshot.
-        
-        Push Changes: Use git push origin <branch> to upload changes to GitHub.
+    Navigate to Your Repository:
+        Open your web browser and go to GitHub.com.
+        Log in to your account.
+        Navigate to the repository where you want to make the commit.
+    To edit an existing file:
+        Navigate to the file in your repository.
+        Click the pencil icon (edit) in the upper right corner of the file view.
+        Edit the files content.
+    Commit Your Changes:
+        Below the file editor, you'll find the "Commit changes" section.
+        Commit Message:
+        Enter a short, descriptive commit message in the "Commit changes" field.
+        For example, "Added initial README" or "Updated index.html."
+    Commit Options:
+        Choose whether to commit directly to the main (or master) branch or create a new branch.
+        When first starting out, committing directly to main is acceptable.
+        Click the "Commit changes" button.
     
     Commits help track changes by:
-    
-        Recording what changes were made, by whom, and when.
-        
-        Allowing easy rollback to previous states.
+       Recording what changes were made, by whom, and when.
+       Allowing easy rollback to previous states.
     
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
     Branching allows for isolated development:
